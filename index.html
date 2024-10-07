@@ -6,63 +6,75 @@
     <title>品目選択</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f4ef;  /* Background color for the entire page */
-            color: #333;  /* Default text color */
+            font-family: 'Meiryo', sans-serif;  /* Change font to match Japanese style */
+            background-color: #ffffff;  /* Set background color to white */
+            color: #333333;  /* Default text color */
         }
         .header {
             display: flex;
             align-items: center;  /* Align items vertically in the center */
+            margin-bottom: 20px;  /* Add some space below the header */
         }
         .header img {
-            height: 50px;  /* Logo height */
+            height: 40px;  /* Adjust logo height */
             margin-right: 10px;  /* Space between logo and text */
         }
         .header p {
-            font-weight: bold;  /* Make the header text bold */
-            color: #004a99;  /* Dark blue color for header text */
+            font-weight: normal;  /* Set header text weight to normal */
+            font-size: 0.9rem;  /* Adjust font size for header text */
+            color: #666666;  /* Lighter color for header text */
         }
         .content {
-            max-width: 800px;  /* Maximum width for the content container */
-            margin: 20px auto;  /* Center the content horizontally with margin */
-            background: white;  /* Background color for the content */
-            padding: 20px;  /* Padding inside the content container */
-            border-radius: 10px;  /* Rounded corners for the content container */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Light shadow for the content container */
+            max-width: 1000px;  /* Adjust maximum width for the content container */
+            margin: 0 auto;  /* Center the content horizontally */
+            background: #f7f7f7;  /* Light grey background color for the content */
+            padding: 15px;  /* Padding inside the content container */
+            border: 1px solid #cccccc;  /* Add border to content container */
         }
         .button {
-            background-color: #ffa94d;  /* Button background color */
-            color: white;  /* Button text color */
-            padding: 10px;  /* Padding inside the button */
+            background-color: #ff9900;  /* Adjust button background color */
+            color: #ffffff;  /* Button text color */
+            padding: 8px 16px;  /* Adjust padding inside the button */
             border: none;  /* Remove border from the button */
-            border-radius: 5px;  /* Rounded corners for the button */
+            border-radius: 0;  /* Remove rounded corners for the button */
             font-size: 1rem;  /* Font size for button text */
             cursor: pointer;  /* Change cursor to pointer when hovering over the button */
         }
         .result-info {
-            margin-top: 20px;  /* Space above the result information */
-            font-weight: bold;  /* Make the result information text bold */
+            margin-top: 15px;  /* Space above the result information */
+            font-weight: normal;  /* Set result information text weight to normal */
+            color: #333333;  /* Use a consistent color for text */
+            font-size: 0.9rem;  /* Adjust font size for result information */
         }
         table {
             width: 100%;  /* Table takes full width of the container */
             border-collapse: collapse;  /* Collapse table borders */
-            margin-top: 20px;  /* Space above the table */
+            margin-top: 15px;  /* Space above the table */
+            font-size: 0.9rem;  /* Adjust table font size */
         }
         table, th, td {
-            border: 1px solid #d3d3d3;  /* Light gray border for table, header, and cells */
+            border: 1px solid #cccccc;  /* Light gray border for table, header, and cells */
         }
         th, td {
-            padding: 10px;  /* Padding inside table header and cells */
+            padding: 8px;  /* Adjust padding inside table header and cells */
             text-align: left;  /* Align text to the left */
         }
         th {
-            background-color: #ffdeac;  /* Background color for table header */
+            background-color: #f0f0f0;  /* Adjust background color for table header */
+            font-weight: bold;  /* Make table header text bold */
+        }
+        a {
+            color: #0066cc;  /* Set link color to blue */
+            text-decoration: none;  /* Remove underline from links */
+        }
+        a:hover {
+            text-decoration: underline;  /* Underline link on hover */
         }
         .footer {
             text-align: center;  /* Center the footer text */
             margin-top: 20px;  /* Space above the footer */
             font-size: 0.8rem;  /* Smaller font size for the footer */
-            color: #777;  /* Light gray color for footer text */
+            color: #999999;  /* Light gray color for footer text */
         }
     </style>
 </head>
